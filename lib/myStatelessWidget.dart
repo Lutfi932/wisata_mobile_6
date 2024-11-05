@@ -1,4 +1,5 @@
 import 'package:flutter/material.dart';
+import 'package:wisata_mobile/screens/splashscreen.dart';
 
 class Mystatelesswidget extends StatelessWidget {
   const Mystatelesswidget({super.key});
@@ -6,16 +7,17 @@ class Mystatelesswidget extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return MaterialApp(
-      title: "Ini Program saya bung",
-      home: Scaffold(
-        appBar: AppBar(
-          title: Text("Ini judul APP BAR"),
-          backgroundColor: Colors.cyan,
-        ),
-        body: Center(
-          child: Text("Ini adalah halaman utama"),
-        )
-      ),
+      debugShowCheckedModeBanner: false,
+      home: SplashScreen(),
+      // home: Scaffold(
+      //   appBar: AppBar(
+      //     title: Text("Ini judul APP BAR"),
+      //     backgroundColor: Colors.cyan,
+      //   ),
+      //   body: Center(
+      //     child: Text("Ini adalah halaman utama"),
+      //   )
+      // ),
     );
   }
 }
