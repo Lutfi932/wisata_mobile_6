@@ -1,4 +1,5 @@
 import 'package:flutter/material.dart';
+import 'package:wisata_mobile/materimodelscreen/pertemuan6.dart';
 import 'package:wisata_mobile/screens/splashscreen.dart';
 
 class Mystatelesswidget extends StatelessWidget {
@@ -8,7 +9,7 @@ class Mystatelesswidget extends StatelessWidget {
   Widget build(BuildContext context) {
     return MaterialApp(
       debugShowCheckedModeBanner: false,
-      home: SplashScreen(),
+      home: Pertemuan6(),
       // home: Scaffold(
       //   appBar: AppBar(
       //     title: Text("Ini judul APP BAR"),
